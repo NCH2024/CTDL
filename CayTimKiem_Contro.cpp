@@ -56,7 +56,7 @@ int main(){
 	//1
 	MakeNullTree(&T);
 	//1a
-	TTree T121 = Create2('G',NULL,NULL);
+	TTree T121 = Create2('O',NULL,NULL);
 	TTree T12  = Create2('E',T121,NULL);
 	TTree T11  = Create2('D',NULL,NULL);
 	TTree T1   = Create2('B',T11,T12);
